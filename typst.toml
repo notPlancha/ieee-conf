@@ -1,0 +1,22 @@
+[package]
+name = "ieee-conf"
+version = "0.1.0"
+entrypoint = 'src\lib.typ'
+authors = ["notPlancha"]
+description = "an unoficial IEEE conference template, following closely the latex official template"
+homepage = "https://github.com/notPlancha/ieee-conf"
+repository = "https://github.com/notPlancha/ieee-conf"
+keywords = [
+    "IEEE",
+    "template",
+    "journal",
+    "conference",
+    "two-column",
+    "academic",
+]
+
+[template]
+path = "template"
+entrypoint = "template/main.typ"
+
+[tool]
